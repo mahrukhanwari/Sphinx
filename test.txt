@@ -1,2 +1,6 @@
 creating the first file
+Adding some lines
+That don't mean anything
+asfasd
+fasdf
 :wq!
