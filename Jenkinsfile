@@ -2,10 +2,11 @@
 pipeline {
     agent { docker 'python:3.5.1' }
     stages {
-        stage('build') {
+        stage('deploy') {
             steps {
 				python './pytest.py'
             }
         }
+		
     }
 }
