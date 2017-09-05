@@ -1,12 +1,11 @@
-
+Jenkinsfile (Declarative Pipeline)
 pipeline {
     agent { docker 'python:3.5.1' }
     stages {
-        stage('deploy') {
+        stage('build') {
             steps {
-				python pytest.py
+                sh 'python --version'
             }
         }
-		
     }
 }
