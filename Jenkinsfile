@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-		python './pytest.py'
+				python './pytest.py'
             }
         }
     }
