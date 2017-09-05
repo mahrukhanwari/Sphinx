@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('deploy') {
             steps {
-				bat 'python --version'
+				python pytest.py
             }
         }
 		
