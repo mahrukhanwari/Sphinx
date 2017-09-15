@@ -5,7 +5,8 @@ pipeline {
         stage('build') {
             steps {
                 bat 'echo step 1'
-				bat 'python --version'
+		bat 'python --version'
+		bat 'python pytest.py'
             }
         }
     }
