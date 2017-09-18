@@ -13,6 +13,7 @@ pipeline {
 	
 	post {
 		always {
+		bat 'echo now clean up this thing'
 		deleteDir()}
 	}
 }
