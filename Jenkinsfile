@@ -13,12 +13,7 @@ pipeline {
 	
 	post {
 		always {
-
-
-
-
-
-sh   'echo now clean up this thing'
+			sh   'echo now clean up this thing'
 		deleteDir()}
 	}
 }
