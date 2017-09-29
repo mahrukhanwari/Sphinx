@@ -6,7 +6,7 @@ pipeline {
                 sh 'echo step 1'
 		sh 'python --version'
 		sh 'echo step1 ended'
-		sh 'pull request generated from branch-a'
+		sh 'pull request generated from branch-a...'
             }
         }
     }
