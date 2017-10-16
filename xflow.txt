@@ -5,3 +5,4 @@ Containers and images created with Docker for Windows are shared between all use
 Nested virtualization scenarios, such as running Docker for Windows on a VMWare or Parallels instance, might work, but come with no guarantees (i.e., not officially supported). For more information, see Running Docker for Windows in nested virtualization scenarios
 What the Docker for Windows install includes: The installation provides Docker Engine, Docker CLI client, Docker Compose, Docker Machine, and Kitematic.
 This File is different from the master branch's file.
+Beta
