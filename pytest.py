@@ -6,6 +6,7 @@ print ""
 print "printing content file : test"
 with open("test.txt", 'r') as fin:
     print fin.read()
+	Wajeeha
 print ""	
 print "printing content file : xflow"
 with open("xflow.txt", 'r') as fin:
