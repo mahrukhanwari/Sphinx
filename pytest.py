@@ -5,7 +5,7 @@ print "hello, python"
 print ""
 print "printing content file : test"
 with open("test.txt", 'r') as fin:
-    prit fin.read()
+    print fin.read()
 	
 print ""	
 print "printing content file : xflow"
