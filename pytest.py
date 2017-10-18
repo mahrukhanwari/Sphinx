@@ -5,8 +5,8 @@ print "hello, python"
 print ""
 print "printing content file : test"
 with open("test.txt", 'r') as fin:
-    print fin.read()
-	Wajeeha
+    prit fin.read()
+	
 print ""	
 print "printing content file : xflow"
 with open("xflow.txt", 'r') as fin:
