@@ -6,7 +6,7 @@ pipeline {
                 sh 'echo step 1'
 		sh 'python --version'
 		sh 'echo step1 ended'
-		s 'python pytest.py'
+		sh 'python pytest.py'
 		sh 'echo BITA'
             }
         }
