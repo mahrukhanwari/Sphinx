@@ -9,6 +9,7 @@ pipeline {
 		sh 'python pytest.py'
 		sh 'echo BITA'
 		sh 'echo alpha '
+		s 'echo charlie'
             }
         }
     }
