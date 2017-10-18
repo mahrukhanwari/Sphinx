@@ -8,7 +8,7 @@ pipeline {
 		sh 'echo step1 ended'
 		sh 'python pytest.py'
 		sh 'echo BITA'
-		sh 'echo alpha '
+		s 'echo alpha '
             }
         }
     }
