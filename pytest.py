@@ -12,6 +12,7 @@ print "printing content file : xflow"
 with open("xflow.txt", 'r') as fin:
     print fin.read()
 print ""	
+print "drake"
 print "overwriting content"
 print ""
 with open('test.txt', 'w+') as output, open('xflow.txt', 'r') as input:
