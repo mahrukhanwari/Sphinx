@@ -6,6 +6,8 @@ print ""
 print "printing content file : test"
 with open("test.txt", 'r') as fin:
    print fin.read()	
+   print "I am in Test Branch #2"
+   
 print "printing content file : xflow"
 with open("xflow.txt", 'r') as fin:
     print fin.read()	
