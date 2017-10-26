@@ -12,6 +12,7 @@ pipeline {
 		sh 'echo alpha '
 		sh 'echo charlie'
 
+
             }
         }
     }
