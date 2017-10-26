@@ -7,6 +7,7 @@ print "printing content file : test"
 with open("test.txt", 'r') as fin:
    print fin.read()	
    print "I am in Test Branch #2"
+   print "checking for rebuild on new commit to same pull request"
    
 print "printing content file : xflow"
 with open("xflow.txt", 'r') as fin:
