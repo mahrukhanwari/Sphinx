@@ -10,7 +10,6 @@ pipeline {
 		sh 'echo BITA'
 
 		sh 'echo alpha '
-		s 'echo charlie'
 
             }
         }
