@@ -4,3 +4,4 @@ stash -2
 Rebase
 za shazama!
 guncha koi
+master commit -2
