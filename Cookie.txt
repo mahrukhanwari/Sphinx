@@ -1,2 +1,7 @@
-eat a cookie
-i am a cookie monster
+commit -1 
+stash -1 
+stash -2
+Rebase
+za shazama!
+guncha koi
+master commit -2
