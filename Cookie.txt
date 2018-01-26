@@ -1,0 +1,10 @@
+commit -1 
+remote changes 
+stash -2
+Rebase
+za shazama!
+guncha koi
+master commit -2
+cookiee
+gerrit change
+push to gerrit ho ha
